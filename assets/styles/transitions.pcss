@@ -1,0 +1,76 @@
+/* purgecss start ignore */
+
+.fade {
+  &-enter-active,
+  &-leave-active {
+    transition: all .3s cubic-bezier(.55, 0, .1, 1);
+  }
+
+  &-enter,
+  &-leave-active {
+    opacity: 0;
+  }
+}
+
+.layout, .page {
+  &-enter-active,
+  &-leave-active {
+    transition: all .3s cubic-bezier(.55, 0, .1, 1);
+  }
+
+  &-enter,
+  &-leave-active {
+    opacity: 0;
+  }
+}
+
+.slide {
+  &-left {
+    &-enter-active,
+    &-leave-active {
+      transition-duration: .3s;
+      transition-property: height, opacity, transform;
+      transition-timing-function: cubic-bezier(.55, 0, .1, 1);
+      overflow: hidden;
+    }
+  }
+  &-right {
+    &-enter-active,
+    &-leave-active {
+      transition-duration: .3s;
+      transition-property: height, opacity, transform;
+      transition-timing-function: cubic-bezier(.55, 0, .1, 1);
+      overflow: hidden;
+    }
+  }
+  &-left-enter,
+  &-right-leave-active {
+    opacity: 0;
+    transform: translate3d(2rem, 0, 0);
+  }
+  &-left-leave-active,
+  &-right-enter {
+    opacity: 0;
+    transform: translate3d(-2rem, 0, 0);
+  }
+  &-up {
+    &-enter-active{
+      transition-duration: 0.3s;
+      transition-timing-function: cubic-bezier(.55, 0, .1, 1);
+    }
+    &-leave-active {
+      transition-duration: 0.3s;
+      transition-timing-function: cubic-bezier(.55, 0, .1, 1);
+    }
+    &-enter-to, &-leave {
+      max-height: 100px;
+      overflow: hidden;
+    }
+    &-enter, &-leave-to {
+      overflow: hidden;
+      max-height: 0;
+    }
+  }
+}
+
+/* purgecss end ignore */
