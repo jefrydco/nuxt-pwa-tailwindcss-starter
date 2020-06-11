@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index renders to match snapshot 1`] = `
+<div>
+  <h1>Home</h1>
+  <validation-provider-stub vid="" mode="aggressive" rules="numeric" bails="true" skipifempty="true" debounce="0" tag="span" custommessages="[object Object]"></validation-provider-stub> <a class="px-2 -mx-2 py-1 transition duration-200 ease-in-out relative block text-teal-600 font-medium underline">
+    Inspire
+  </a>
+</div>
+`;
