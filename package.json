@@ -39,7 +39,7 @@
     "test:unit": "jest"
   },
   "dependencies": {
-    "@nuxt/http": "^0.5.2",
+    "@nuxt/http": "^0.5.3",
     "@nuxtjs/google-analytics": "^2.3.0",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
     "@nuxtjs/sentry": "^4.1.2",
@@ -78,7 +78,7 @@
     "jest": "^26.0.1",
     "jest-serializer-vue": "^2.0.2",
     "jest-transform-stub": "^2.0.0",
-    "lint-staged": "^10.2.9",
+    "lint-staged": "^10.2.10",
     "prettier": "^2.0.5",
     "stylelint": "^13.6.0",
     "stylelint-config-recommended": "^3.0.0",
