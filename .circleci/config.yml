@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cypress/base:10
+      - image: cypress/base:12
         environment:
           ## this enables colors in the output
           TERM: xterm
@@ -16,7 +16,7 @@ jobs:
             - v1-deps
       - run:
           name: Install Dependencies
-          command: yarn
+          command: yarn --ignore-engines
       - save_cache:
           key: v1-deps-{{ .Branch }}-{{ checksum "yarn.lock" }}
           paths:
