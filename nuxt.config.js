@@ -47,7 +47,17 @@ export default {
     '@nuxtjs/tailwindcss'
   ],
 
-  vuetify: {},
+  /**
+   * Tailwind CSS configuration
+   */
+  tailwindcss: {
+    cssPath: '~/assets/styles/tailwind.css'
+  },
+
+  // https://github.com/nuxt-community/stylelint-module
+  stylelint: {
+    fix: true
+  },
 
   // https://nuxtjs.org/api/configuration-plugins
   plugins: [],
@@ -59,6 +69,11 @@ export default {
   build: {
     extractCSS: !isDev,
     transpile: ['vee-validate/dist/rules'],
+    postcss: {
+      plugins: {
+        'postcss-nested': {}
+      }
+    },
     extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({

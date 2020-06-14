@@ -2,7 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-@import './transitions.pcss';
+@import './transitions';
 
 /* purgecss start ignore */
 html, body {
