@@ -80,7 +80,7 @@
     "lint-staged": "^10.2.13",
     "postcss-nested": "^4.2.3",
     "prettier": "^2.1.1",
-    "stylelint": "^13.6.1",
+    "stylelint": "^15.0.0",
     "stylelint-config-recommended": "^3.0.0",
     "vue-jest": "^3.0.6"
   },
