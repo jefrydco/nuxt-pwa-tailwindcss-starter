@@ -44,7 +44,7 @@
     "@nuxtjs/pwa": "^3.0.2",
     "@nuxtjs/sentry": "^4.3.4",
     "@nuxtjs/sitemap": "^2.4.0",
-    "nuxt": "^2.14.4",
+    "nuxt": "^3.6.5",
     "vee-validate": "^3.3.9"
   },
   "devDependencies": {
