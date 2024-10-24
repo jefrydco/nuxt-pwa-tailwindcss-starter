@@ -45,7 +45,7 @@
     "@nuxtjs/sentry": "^4.3.4",
     "@nuxtjs/sitemap": "^2.4.0",
     "nuxt": "^2.14.4",
-    "vee-validate": "^3.3.9"
+    "vee-validate": "^4.14.4"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
